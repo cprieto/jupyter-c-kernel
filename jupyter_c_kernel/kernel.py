@@ -72,6 +72,7 @@ class CKernel(Kernel):
     language = 'c'
     language_version = 'C11'
     language_info = {'name': 'c',
+                     'codemirror_mode': 'c-like',
                      'mimetype': 'text/x-csrc',
                      'file_extension': '.c'}
     banner = "C kernel.\n" \
